@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://54.172.231.196:5432/postgres
+    username: docker
+    password: docker
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+server:
+  port: 8082   
+kafka:
+   bootstrap-servers: 54.152.71.186:9092  
+   topic:
+      avro: 
+        customer: customer-topic 
