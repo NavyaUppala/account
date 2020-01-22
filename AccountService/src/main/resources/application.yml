@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://54.172.231.196:5432/postgres
+    url: jdbc:postgresql://34.205.73.7:5432/postgres
     username: docker
     password: docker
   jpa:
@@ -17,7 +17,7 @@ spring:
 server:
   port: 8082   
 kafka:
-   bootstrap-servers: 54.152.71.186:9092  
+   bootstrap-servers: 3.90.142.149:9092  
    topic:
       avro: 
         customer: customer-topic 

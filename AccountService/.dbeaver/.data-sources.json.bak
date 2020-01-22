@@ -8,9 +8,10 @@
 			"save-password": true,
 			"read-only": false,
 			"configuration": {
-				"host": "database-1.covl14affxql.us-east-1.rds.amazonaws.com",
+				"host": "34.205.73.7",
 				"port": "5432",
-				"url": "jdbc:postgresql://database-1.covl14affxql.us-east-1.rds.amazonaws.com:5432/",
+				"database": "postgres",
+				"url": "jdbc:postgresql://34.205.73.7:5432/postgres",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false",
